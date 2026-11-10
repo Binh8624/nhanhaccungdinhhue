@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-son: #781F25;
+    --color-gold: #C9A45C;
+    --color-gold-light: #E5C07B;
+    --color-black: #171513;
+    --color-cream: #F2E8D5;
+    --color-wood: #493326;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #171513;
+    color: #F2E8D5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-royal {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbar in royal colors */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #171513;
+}
+::-webkit-scrollbar-thumb {
+  background: #493326;
+  border-radius: 4px;
+  border: 1px solid #C9A45C40;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #781F25;
+}
+
+/* Imperial decorative hairline frames and ornaments */
+.royal-border {
+  border: 1px solid rgba(201, 164, 92, 0.25);
+}
+.royal-border-gold {
+  border: 1px solid rgba(201, 164, 92, 0.5);
+}
+.royal-glow {
+  box-shadow: 0 0 25px rgba(201, 164, 92, 0.12);
+}
+.royal-card {
+  background-color: rgba(23, 21, 19, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(201, 164, 92, 0.2);
+}
+.royal-card:hover {
+  border-color: rgba(201, 164, 92, 0.45);
+}

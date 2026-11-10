@@ -1,0 +1,6 @@
+{
+  "name": "Nhã Nhạc Cung Đình Huế – Bảo Tàng Di Sản Số",
+  "description": "Bảo tàng số khám phá lịch sử, nhạc cụ, nghệ nhân và không gian diễn xướng Nhã nhạc cung đình Huế – Kiệt tác Di sản Phi vật thể Nhân loại (UNESCO). Dự án của Trần Thanh Bình, MSSV: PH61165, Lớp D02.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
